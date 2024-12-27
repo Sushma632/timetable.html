@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    /* Default styles */
+    .container {
+      width: 80%;
+      margin: auto;
+      background-color: lightblue;
+      padding: 20px;
+    }
+
+    /* Styles for screens smaller than 600px */
+    @media (max-width: 600px) {
+      .container {
+        width: 100%;
+        background-color: lightcoral;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    Resize the browser window to see the background color and width change.
+  </div>
+</body>
+</html>
+
+  

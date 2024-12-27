@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Example</title>
+    <style>
+        /* Default styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        /* Media query for screens smaller than 600px */
+        @media (max-width: 600px) {
+            body {
+                background-color: lightblue;
+                color: white;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+
+        /* Media query for screens between 601px and 1024px */
+        @media (min-width: 601px) and (max-width: 1024px) {
+            body {
+                background-color: lightcoral;
+                color: white;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+        }
+
+        /* Media query for screens larger than 1024px */
+        @media (min-width: 1024px) {
+            body {
+                background-color: lightgreen;
+                color: darkgreen;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Design with Media Queries</h1>
+    <p>Resize your browser window to see the background and text size change!</p>
+</body>
+</html>

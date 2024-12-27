@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <!-- <h2>javascript Functions</h2>
+    <p>This example calls function which performs calculation, and returns the result</p> -->
+    <p id="demo"></p>
+    <script>
+        //function myFunction(p1,p2){
+           // return p1*p2;
+       // }
+       // document.getElementById("demo").innerHTML=myFunction(4,3);
+       //function myFunction(a){
+       // if(a%2!==0){
+          //  return "even";
+       // }else{
+          //  return "odd";
+       // }
+       // }
+       // document.getElementById("demo").innerHTML=myFunction(4);
+       //const Employee={firstName:"John",LastName:"David"};
+       //console.log(Employee.LastName);
+      // document.getElementById("demo").innerHTML=
+      //const arr=["cat","dog","cow"];
+      //document.getElementById("demo").innerHTML=arr.join(" * ");
+      //const time=new Date().getHours();
+      //let greeting;
+     // if(time<10){
+        //greeting="Good morning";
+        let day;
+        switch(new Date().getDay()){
+            case 0:
+                 day="sunday";
+                 break;
+            case 1:
+                day="Monday";
+                break;
+            case 2:
+                day="Tuesday";
+                break;
+            case 3:
+                day="Wednesday";
+                break;
+            case 4:
+                day="Thursday";
+                break;
+            case 5:
+                day="Friday";
+                break;
+            case 6:
+                day="Saturday";
+                break;
+        }
+        document.getElementById("demo").innerHTML=day;
+    </script>
+</body>
+</html>
